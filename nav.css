@@ -15,16 +15,16 @@ nav li{
 	background:url('lib/pic/me01.png');
     background-size:30%;
     background-repeat:no-repeat;
-	padding:3.10rem;
+	padding:3.15rem;
 	transition-property:background-img, padding-left;
-	transition-duration:2s;
+	transition-duration:4s;
 	}
 nav li:hover{
 	background:url('lib/pic/me02.png');
     background-size:30%;
     background-repeat:no-repeat;
 	padding:5rem;
-	padding-left:5.4rem;}	
+	padding-left:37rem;}	
 
 nav li a{
 	width:100%;
