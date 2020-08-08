@@ -12,7 +12,7 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0,0);
   canvas.style('z-index','-1');
-  system = new ParticleSystem(createVector(width / 3 , 50));
+  system = new ParticleSystem(createVector(width / 2.5 , 50));
   
 }
 
