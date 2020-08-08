@@ -15,7 +15,7 @@ nav li{
 	background:url('lib/pic/me01.png');
     background-size:30%;
     background-repeat:no-repeat;
-	padding:3.20rem;
+	padding:3.10rem;
 	transition-property:background-img, padding-left;
 	transition-duration:2s;
 	}
