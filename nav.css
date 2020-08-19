@@ -12,7 +12,7 @@ nav{
 	
 nav li{
 	display:block;
-	background:url('lib/pic/me01.png');
+	background:url('lib/me01.png');
     background-size:30%;
     background-repeat:no-repeat;
 	padding:3.15rem;
@@ -20,7 +20,7 @@ nav li{
 	transition-duration:4s;
 	}
 nav li:hover{
-	background:url('lib/pic/me02.png');
+	background:url('lib/me02.png');
     background-size:30%;
     background-repeat:no-repeat;
 	padding:5rem;
