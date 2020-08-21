@@ -1,6 +1,35 @@
 @charset "utf-8";
 /* CSS Document */
 
+select {
+
+          float:right; 
+		  background-color:#ff85d2;
+		  color:#fff;
+	      font-weight:bold;
+		  border:none;
+		  position:absolute;
+		  right:1rem;
+	}
+	
+
+
+select option {
+	background-color:#ff85d2;
+		  color:#fff;
+	      font-weight:bold;
+		   border:none;	
+	      cursor:help; 
+		 box-shadow: inset 20px 20px #ff85d2;
+	}
+
+
+select:focus {
+	      cursor:help;
+          outline: none;
+}
+
+
 
 
 

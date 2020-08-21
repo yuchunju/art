@@ -1,11 +1,9 @@
 let system;
- 
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 
 }
-
 
 
 function setup() {
@@ -22,15 +20,10 @@ function setup() {
 
  function draw() {
  background('#99CCFF');
- 
-//  rectMode(CENTER);
-//  noStroke();
-//  fill(0,0,225);
-//  rotete(angle);
-//  rectX(0,0,150,150);
-//  angle +=0.07;
+  
   system.addParticle();
   system.run();
+  
 }
 
 // A simple Particle class
@@ -83,4 +76,6 @@ ParticleSystem.prototype.run = function() {
       this.particles.splice(i, 1);
     }
   }
-};
+}
+
+
