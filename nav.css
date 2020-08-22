@@ -4,7 +4,7 @@
 select {
 
           float:right; 
-		  background-color:#ff85d2;
+		  background:none;
 		  color:#fff;
 	      font-weight:bold;
 		  border:none;
@@ -15,16 +15,17 @@ select {
 
 
 select option {
-	background-color:#ff85d2;
-		  color:#fff;
+	      background:none;
+		  color:#ff85d2;
 	      font-weight:bold;
-		   border:none;	
+		  border:none;	
 	      cursor:help; 
-		 box-shadow: inset 20px 20px #ff85d2;
+	
 	}
 
 
 select:focus {
+	      background:none;
 	      cursor:help;
           outline: none;
 }
