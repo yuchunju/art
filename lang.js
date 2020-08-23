@@ -54,7 +54,7 @@ var WORDS_IT = {
 window.onload = initialize;
 
 function initialize() {
-	  var lan = getCookie('LanguageList');
+	  var lang = getCookie('LanguageList');
   var $dropdown = $("#country_select");    
   $.each(LanguageList, function(key, value) {
     $dropdown.
