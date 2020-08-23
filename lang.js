@@ -1,21 +1,5 @@
 // JavaScript Document
-function setCookie(name,value)
-{
-    var Days = 30;
-    var exp = new Date();
-    exp.setTime(exp.getTime() + Days*24*60*60*1000);
-    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
-}
- 
-//获取cookie
-function getCookie(name)
-{
-    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
-    if(arr=document.cookie.match(reg))
-    return unescape(arr[2]);
-    else
-    return null;
-}
+
 
 var LanguageList = {
   "EN" : "English",
@@ -54,7 +38,7 @@ var WORDS_IT = {
 window.onload = initialize;
 
 function initialize() {
-	  var lang = getCookie('LanguageList');
+
   var $dropdown = $("#country_select");    
   $.each(LanguageList, function(key, value) {
     $dropdown.
