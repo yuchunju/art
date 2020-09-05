@@ -2,7 +2,8 @@
 /* CSS Document */
 
 select {
-
+          position:relative;
+          top:.5rem;
           float:right; 
 		  background:none;
 		  color:#fff;
@@ -36,6 +37,8 @@ select:focus {
 
 
 nav{
+	position:relative;
+    top:1rem;
 	width:40.5rem;
 	}
 	
@@ -44,7 +47,7 @@ nav li{
 	background:url('lib/me01.png');
     background-size:30%;
     background-repeat:no-repeat;
-	padding:3.15rem;
+	padding:3.5rem;
 	transition-property:background-img, padding-left;
 	transition-duration:4s;
 	}
