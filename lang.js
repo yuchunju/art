@@ -10,27 +10,41 @@ var LanguageList = {
 //languages Objects
 var WORDS_EN = {
   "text1" : "Home",
-  "text2" : "Me",
-  "text3" : "Works",
-  "text4" : "CV",
-  "text5" : "Contact"
+  "text2" : "Next",
+  "text3" : "trash",
+  "text4" : "Golden",
+  "text5" : "2020",
+  "text6" : "UK",
+  "text7" : "Vending",
+  "text8" : "MD",
+  "text9" : "Random",
 
 };
 
 var WORDS_CN = {
  "text1" : "主页",
-  "text2" : "我",
-  "text3" : "作品",
-  "text4" : "简历",
-  "text5" : "联系我"
+  "text2" : "下一页",
+  "text3" : "我很垃圾",
+  "text4" : "黄金时代",
+  "text5" : "二〇二〇",
+  "text6" : "不为人知",
+  "text7" : "贩卖艺术",
+  "text8" : "365纪念日",
+  "text9" : "其他",
+
 };
 
 var WORDS_IT = {
- "text1" : "Home",
-  "text2" : "Me",
-  "text3" : "Lavori",
-  "text4" : "cv",
-  "text5" : "Contatti"
+  "text1" : "Home",
+  "text2" : "prossimo",
+  "text3" : "spa...ra",
+  "text4" : "oro",
+  "text5" : "2020",
+  "text6" : "Sco...to",
+  "text7" : "Vending",
+  "text8" : "Mem...le",
+  "text9" : "Altri",
+
 };
 
 
@@ -49,8 +63,6 @@ function initialize() {
     
   loadsLanguage("EN");
 
-
-
 }
 
 function loadsLanguage(lang){
@@ -62,10 +74,7 @@ function loadsLanguage(lang){
   });
 }
 
-
-
-
-        function setCookie(name, value, days) {
+   function setCookie(name, value, days) {
           var expires = "";
           if (days) {
             var date = new Date();
@@ -85,4 +94,5 @@ function loadsLanguage(lang){
           }
           return null;
         }
+
 

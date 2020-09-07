@@ -1,10 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
-
-select {
-          position:relative;
-          top:.5rem;
-          float:right; 
+select {     position:relative;
+          float: right;align-content: flex-start;
 		  background:none;
 		  color:#fff;
 	      font-weight:bold;
@@ -33,44 +30,54 @@ select:focus {
 
 
 
-
-
-
 nav{
 	position:relative;
     top:1rem;
-	width:40.5rem;
+	 width:windowWidth;
+    float:left;
 	}
 	
 nav li{
 	display:block;
-	background:url('lib/me01.png');
-    background-size:30%;
+	background:url('lib/pic/me01.png');
+    background-size:contain;
     background-repeat:no-repeat;
-	padding:3.5rem;
-	transition-property:background-img, padding-left;
-	transition-duration:4s;
+	padding:2rem;
+	transition-property:background-img;
+    float:left;
 	}
 nav li:hover{
-	
-	background:url('lib/me02.png');
-    background-size:30%;
+	background:url('lib/pic/me02.png');
+    background-size:contain;
     background-repeat:no-repeat;
-	padding:5rem;
-	padding-left:18rem;}	
+	padding:2rem;
+}	
 
 nav li a{
 	width:100%;
 	height:100%;
 	display:block;
-	text-decoration: blink;
+	text-decoration: none;
 	color:#fff;
 	font-weight:bold;
 	cursor:help;
-	}
 	
+	}
 nav li a:hover{
 	color:#fff;
    text-decoration:underline;
 	}	
+
+
+.col-xs-9 {
+	color: #FFF;
+     position: absolute;
+	  left: -1rem;
+	
+}
+
+
+
+
+ 
 
