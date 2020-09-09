@@ -38,27 +38,28 @@ select:focus {
 
 nav{
 	position:relative;
-    top:1rem;
-	width:40.5rem;
-	padding-left: 30%;
+   top:1rem;
+	left: 0rem;
+	padding-left: 35%;
+	
 	}
 	
 nav li{
 	display:block;
 	background:url('lib/me01.png');
-    background-size:30%;
+    background-size:contain;
     background-repeat:no-repeat;
 	padding:3.5rem;
 	transition-property:background-img, padding-left;
-	transition-duration:4s;
+	transition-duration:2.5s;
 	}
 nav li:hover{
 	
 	background:url('lib/me02.png');
-    background-size:30%;
+     background-size:contain;
     background-repeat:no-repeat;
 	padding:5rem;
-	padding-left:18rem;}	
+	padding-left:13rem;}	
 
 nav li a{
 	width:100%;
@@ -75,3 +76,11 @@ nav li a:hover{
    text-decoration:underline;
 	}	
 
+
+@media (max-width: 770px) {
+	nav{
+	padding-left: 28%;
+	
+	}
+	
+}
