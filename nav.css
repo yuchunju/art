@@ -19,6 +19,7 @@ button:hover{
 	border: none;
 	background: none;
 	padding-top: 5px;
+	border-radius:50%
 }
 
 button:focus{
