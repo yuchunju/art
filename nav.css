@@ -21,14 +21,14 @@ width: 30px;
 button:hover{
 	border: none;
 	background: none;
-	padding-top: 7px;
+	padding-top: 5px;
 	
 }
 
 button:focus,button:active{
 	border: none;
 	background-color:#3F98F3;
-	padding-top: 7px;
+	padding-top: 5px;
 	outline: none;
 	border-radius:50%;
 
@@ -41,7 +41,7 @@ button:focus,button:active{
 
 nav{
 	position:relative;
-   top:10px;
+   top:15px;
 	left: 0px;
 	padding-left: 35%;
 	
