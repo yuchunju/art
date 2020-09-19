@@ -14,7 +14,7 @@ border: none;
 float: right;
 top: 10px;
 z-index: 999;
-border-radius:100%
+border-radius:50%
 
 }
 
@@ -23,7 +23,7 @@ button:hover{
 	border: none;
 	background: none;
 	padding-top: 5px;
-	border-radius:100%
+	border-radius:50%
 }
 
 button:focus,button:active{
@@ -32,7 +32,7 @@ button:focus,button:active{
 	background-color:#3F98F3;
 	padding-top: 5px;
 	outline: none;
-	border-radius:100%
+	border-radius:50%
 }
 
 
