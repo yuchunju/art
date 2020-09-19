@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	 font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	 font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	-webkit-text-size-adjust:none; 
 }
 
 
@@ -10,20 +11,20 @@ position: relative;
 background:none;
 border: none;
 float: right;
-top: 1rem;
+top: 10px;
 z-index: 999;
 }
 
 button:hover{
 	border: none;
 	background: none;
-	padding-top: .3rem;
+	padding-top: 3px;
 }
 
 button:focus{
 	border: none;
 	background-color:#3F98F3;
-	padding-top: .3rem;
+	padding-top: 3px;
 	outline: none;
 	border-radius:50%
 }
@@ -38,7 +39,7 @@ button:.mouseup{
 
 #it,#zh,#en{
 	position: relative;
-   right: .5rem;
+   right: 5px;
 }
 
 
@@ -49,8 +50,8 @@ button:.mouseup{
 
 nav{
 	position:relative;
-   top:1rem;
-	left: 0rem;
+   top:10px;
+	left: 0px;
 	padding-left: 35%;
 	
 	}
@@ -60,7 +61,7 @@ nav li{
 	background:url('lib/me01.png');
     background-size:contain;
     background-repeat:no-repeat;
-	padding:3.5rem;
+	padding:50px;
 	transition-property:background-img, padding-left;
 	transition-duration:2.5s;
 	}
@@ -69,8 +70,8 @@ nav li:hover{
 	background:url('lib/me02.png');
      background-size:contain;
     background-repeat:no-repeat;
-	padding:5rem;
-	padding-left:13rem;}	
+	padding:60px;
+	padding-left:200px;}	
 
 nav li a{
 	width:100%;
