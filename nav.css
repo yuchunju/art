@@ -18,24 +18,17 @@ z-index: 999;
 button:hover{
 	border: none;
 	background: none;
-	padding-top: 3px;
+	padding-top: 5px;
 }
 
 button:focus{
 	border: none;
 	background-color:#3F98F3;
-	padding-top: 3px;
+	padding-top: 5px;
 	outline: none;
 	border-radius:50%
 }
 
-button:.mouseup{
-	border: none;
-	background-color:#3F98F3;
-	padding-top: .3rem;
-	outline: none;
-	border-radius:50%
-}
 
 #it,#zh,#en{
 	position: relative;
