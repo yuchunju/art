@@ -13,6 +13,7 @@ border: none;
 float: right;
 top: 10px;
 z-index: 999;
+border-radius:50%
 }
 
 button:hover{
@@ -83,7 +84,7 @@ nav li a:hover{
 
 @media (max-width: 770px) {
 	nav{
-	padding-left: 28%;
+	padding-left: 26%;
 	
 	}
 	
