@@ -7,7 +7,7 @@ body{
 
 
 button{
- -webkit-appearance: none;
+ -webkit-appearance: square-button;
 position: relative;
 background:none;
 border: none;
@@ -19,7 +19,7 @@ border-radius:50%
 }
 
 button:hover{
-    -webkit-appearance: none;
+  -webkit-appearance: square-button;
 	border: none;
 	background: none;
 	padding-top: 5px;
@@ -27,7 +27,7 @@ button:hover{
 }
 
 button:focus,button:active{
-    -webkit-appearance: none;
+  -webkit-appearance: square-button;
 	border: none;
 	background-color:#3F98F3;
 	padding-top: 5px;
