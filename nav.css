@@ -7,25 +7,27 @@ body{
 
 
 button{
+ -webkit-appearance: none;
 position: relative;
 background:none;
 border: none;
 float: right;
 top: 10px;
 z-index: 999;
--moz-appearance: none;
--webkit-appearance: none;
 border-radius:100%
+
 }
 
 button:hover{
+    -webkit-appearance: none;
 	border: none;
 	background: none;
 	padding-top: 5px;
 	border-radius:100%
 }
 
-button:focus{
+button:focus,button:active{
+    -webkit-appearance: none;
 	border: none;
 	background-color:#3F98F3;
 	padding-top: 5px;
@@ -34,10 +36,6 @@ button:focus{
 }
 
 
-#it,#zh,#en{
-	position: relative;
-   right: 5px;
-}
 
 
 
