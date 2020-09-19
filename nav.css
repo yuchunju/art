@@ -7,40 +7,33 @@ body{
 
 
 button{
--webkit-appearance:none;
-appearance: square-button;
 position: relative;
 background:none;
 border: none;
 float: right;
 top: 10px;
+right: 10px;
 z-index: 999;
-border-radius:50%
+border-radius:50%;
+width: 30px;
 
 }
 
 button:hover{
-   -webkit-appearance:none;
-   appearance: square-button;
 	border: none;
 	background: none;
-	padding-top: 5px;
-	border-radius:50%
+	padding-top: 7px;
+	border-radius:50%;
+	
 }
 
 button:focus,button:active{
-   -webkit-appearance:none;
-   appearance: square-button;
 	border: none;
 	background-color:#3F98F3;
-	padding-top: 5px;
+	padding-top: 7px;
 	outline: none;
-	border-radius:50%
-}
+	border-radius:50%;
 
-
-#it,#zh,#en{
-	right: 5px;
 }
 
 
