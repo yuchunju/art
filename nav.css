@@ -14,7 +14,6 @@ float: right;
 top: 10px;
 right: 10px;
 z-index: 999;
-border-radius:50%;
 width: 30px;
 
 }
@@ -23,7 +22,6 @@ button:hover{
 	border: none;
 	background: none;
 	padding-top: 7px;
-	border-radius:50%;
 	
 }
 
