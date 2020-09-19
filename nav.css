@@ -13,6 +13,8 @@ border: none;
 float: right;
 top: 10px;
 z-index: 999;
+-moz-appearance: none;
+-webkit-appearance: none;
 border-radius:100%
 }
 
