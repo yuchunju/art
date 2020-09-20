@@ -2,7 +2,6 @@
 /* CSS Document */
 body{
 	 font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	-webkit-text-size-adjust:none; 
 }
 
 
@@ -52,7 +51,7 @@ nav li{
 	background:url('lib/me01.png');
     background-size:contain;
     background-repeat:no-repeat;
-	padding:50px;
+	padding:60px;
 	transition-property:background-img, padding-left;
 	transition-duration:2.5s;
 	}
@@ -61,7 +60,7 @@ nav li:hover{
 	background:url('lib/me02.png');
      background-size:contain;
     background-repeat:no-repeat;
-	padding:60px;
+	padding:70px;
 	padding-left:200px;}	
 
 nav li a{
@@ -83,5 +82,22 @@ nav li a:hover{
 	padding-left: 26%;
 	
 	}
+	
+	nav li{
+	display:block;
+	background:url('lib/me01.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+	padding:50px;
+	transition-property:background-img, padding-left;
+	transition-duration:2.5s;
+	}
+nav li:hover{
+	
+	background:url('lib/me02.png');
+     background-size:contain;
+    background-repeat:no-repeat;
+	padding:60px;
+	padding-left:200px;}
 	
 }
