@@ -51,7 +51,7 @@ nav li{
 	background:url('lib/me01.png');
     background-size:contain;
     background-repeat:no-repeat;
-	padding:60px;
+	padding:56px;
 	transition-property:background-img, padding-left;
 	transition-duration:2.5s;
 	}
@@ -60,7 +60,7 @@ nav li:hover{
 	background:url('lib/me02.png');
      background-size:contain;
     background-repeat:no-repeat;
-	padding:70px;
+	padding:66px;
 	padding-left:200px;}	
 
 nav li a{
