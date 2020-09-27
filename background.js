@@ -7,11 +7,11 @@ function windowResized() {
 
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, 1000);
   canvas.position(0,0);
   canvas.style('z-index','-1');
   system = new ParticleSystem(createVector(width / 2.5 , 50));
-  
+
 }
 
 
@@ -20,10 +20,10 @@ function setup() {
 
  function draw() {
  background('#99CCFF');
-  
+
   system.addParticle();
   system.run();
-  
+
 }
 
 // A simple Particle class
